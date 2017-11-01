@@ -1,0 +1,67 @@
+style.css
+
+*{
+  box-sizing: border-box;
+}
+
+html{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #eee7e1;
+}
+header{
+  border-bottom: 1px solid black;
+  text-align: center;
+  text-decoration: none;
+}
+header a{
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  font-family: 'Bubbler One', sans-serif;
+}
+nav {
+border-bottom: 1px solid black;
+padding-top: 1%;
+padding-bottom: 1%;
+padding-left: 0;
+
+/*margin-left: 44.5%;*/ /*menu punkterne er 10.5%*/
+text-align: center;
+}
+nav li ul {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: none;
+-webkit-padding-start: 0;
+}
+ul {
+    -webkit-padding-start: 0em;
+}
+
+h1, h2, header, nav {
+  font-family: 'Pavanam', sans-serif;
+}
+
+header {
+  font-size: 30px;
+}
+
+footer {
+  border-top: 1px solid black;
+}
+.opening {
+  float: right;
+  clear: both;
+  margin-bottom: 0;
+}
+.opening2 {
+  clear: both;
+  float: right;
+  margin-right: 1.9em;
+}
