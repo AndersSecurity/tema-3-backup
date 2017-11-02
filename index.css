@@ -33,6 +33,10 @@ padding-bottom: 1%;
 padding-left: 0;
 text-align: center;
 }
+nav a{
+  text-decoration-color: black;
+  color: black;
+}
 nav ul li {
   list-style: none;
   padding: 0;
@@ -107,6 +111,6 @@ img {
   text-align:right
 }
 .space {
-  margin-bottom: 7%;
+  margin-bottom: 2%;
 }
 }
